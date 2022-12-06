@@ -1,0 +1,119 @@
+body {
+    background-color: #0D91F5;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li:hover {
+    background-color: #324D61;
+}
+
+.menu li {
+    background-color: #899CAB;
+    color: whitesmoke;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    border: 2.5px solid #324D61 ;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #899CAB;
+}
+
+.centre {
+    background-color: #AFC8DB;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    height: 90%;
+}
+
+legend {
+    background-color: #324D61;
+    color: whitesmoke;
+    font: 2em center;
+    margin: 5px;
+}
+.bouton input {
+    background-color: #324D61;
+    color: whitesmoke;
+    border: 2.5px solid #899CAB ;
+    cursor: pointer;
+}
+
+.galerie {
+    width: 120px;
+}
+
+.flex-grow {
+    display: flex;
+    flex-grow: 5;
+    justify-content: space-evenly
+}
+
+.bouton {
+    background-color: #AFC8DB;
+    display: flex;
+    align-items: flex-end;
+}
+
+.label label {
+    display: block;
+}
+
+label {
+    text-decoration:underline;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.center fieldset {
+    width: 40%;
+}
+
+input, select, textarea {
+    border-radius: 10px;
+    width: 110px;
+}
+
+.bouton :hover{
+    background-color: #49545C;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer :hover{
+    background-color: #324D61;
+}
+
+.gauche{
+    text-align: center;
+    background-color: #899CAB;
+    border-radius: 50%;
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.droite{
+    text-align: center;
+    background-color: #899CAB;
+    border-radius: 50%;
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 5px;
+}

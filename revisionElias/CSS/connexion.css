@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+}
+
+.label label {
+    display: block;
+}
+
+input {
+    border-radius: 10px;
+}
+
+.connexion input {
+    cursor:pointer;
+    background-color: greenyellow; 
+}
+
+.menu {
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+    line-height: 100px;
+}
+
+.menu li {
+    cursor: pointer;
+    float: left;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+h1 {
+    color: brown;
+    text-decoration:underline;
+}
+
+legend {
+    color: brown;
+    background-color: burlywood;
+    padding: 25px;
+    border-radius: 1600px;
+}
